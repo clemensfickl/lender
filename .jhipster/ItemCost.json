@@ -1,0 +1,39 @@
+{
+    "name": "ItemCost",
+    "fields": [
+        {
+            "fieldName": "timeFrame",
+            "fieldType": "TimeFrame",
+            "fieldValues": "MINUTE,HOUR,DAY,MONTH,YEAR",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "costPerTimeFrame",
+            "fieldType": "BigDecimal",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "item",
+            "otherEntityRelationshipName": "costs",
+            "relationshipValidateRules": "required",
+            "relationshipName": "item",
+            "otherEntityField": "name"
+        }
+    ],
+    "changelogDate": "20190329104732",
+    "entityTableName": "item_cost",
+    "dto": "mapstruct",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

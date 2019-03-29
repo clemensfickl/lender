@@ -8,6 +8,11 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "item": "Item",
+        "itemCost": "Item Cost",
+        "room": "Room",
+        "reservation": "Reservation",
+        "lending": "Lending",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
