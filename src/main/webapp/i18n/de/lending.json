@@ -1,0 +1,28 @@
+{
+  "lenderApp": {
+    "lending": {
+      "home": {
+        "title": "Lendings",
+        "createLabel": "Lending erstellen",
+        "createOrEditLabel": "Lending erstellen oder bearbeiten"
+      },
+      "created": "Lending erstellt mit ID {{ param }}",
+      "updated": "Lending aktualisiert mit ID {{ param }}",
+      "deleted": "Lending gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Lending {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Lending"
+      },
+      "start": "Start",
+      "plannedEnd": "Planned End",
+      "end": "End",
+      "informedAboutEnd": "Informed About End",
+      "cost": "Cost",
+      "paid": "Paid",
+      "borrower": "Borrower",
+      "item": "Item"
+    }
+  }
+}

@@ -5,6 +5,15 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104731_added_entity_Item.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104732_added_entity_ItemCost.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104733_added_entity_Room.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104734_added_entity_Reservation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104735_added_entity_Lending.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20190329104731_added_entity_constraints_Item.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104732_added_entity_constraints_ItemCost.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104734_added_entity_constraints_Reservation.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20190329104735_added_entity_constraints_Lending.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>

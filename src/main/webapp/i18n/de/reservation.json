@@ -1,0 +1,24 @@
+{
+  "lenderApp": {
+    "reservation": {
+      "home": {
+        "title": "Reservations",
+        "createLabel": "Reservation erstellen",
+        "createOrEditLabel": "Reservation erstellen oder bearbeiten"
+      },
+      "created": "Reservation erstellt mit ID {{ param }}",
+      "updated": "Reservation aktualisiert mit ID {{ param }}",
+      "deleted": "Reservation gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Reservation {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Reservation"
+      },
+      "start": "Start",
+      "end": "End",
+      "borrower": "Borrower",
+      "item": "Item"
+    }
+  }
+}

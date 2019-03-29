@@ -1,0 +1,23 @@
+{
+  "lenderApp": {
+    "itemCost": {
+      "home": {
+        "title": "Item Costs",
+        "createLabel": "Item Cost erstellen",
+        "createOrEditLabel": "Item Cost erstellen oder bearbeiten"
+      },
+      "created": "Item Cost erstellt mit ID {{ param }}",
+      "updated": "Item Cost aktualisiert mit ID {{ param }}",
+      "deleted": "Item Cost gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Item Cost {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Item Cost"
+      },
+      "timeFrame": "Time Frame",
+      "costPerTimeFrame": "Cost Per Time Frame",
+      "item": "Item"
+    }
+  }
+}

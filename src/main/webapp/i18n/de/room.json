@@ -1,0 +1,22 @@
+{
+  "lenderApp": {
+    "room": {
+      "home": {
+        "title": "Rooms",
+        "createLabel": "Room erstellen",
+        "createOrEditLabel": "Room erstellen oder bearbeiten"
+      },
+      "created": "Room erstellt mit ID {{ param }}",
+      "updated": "Room aktualisiert mit ID {{ param }}",
+      "deleted": "Room gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Room {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Room"
+      },
+      "name": "Name",
+      "description": "Description"
+    }
+  }
+}

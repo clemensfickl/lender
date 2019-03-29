@@ -1,0 +1,51 @@
+enum TimeFrame {
+	MINUTE, HOUR, DAY, MONTH, YEAR
+}
+
+entity Item {
+	name String required,
+    locationDetail String maxlength(4000),
+    description String maxlength(4000)
+}
+
+entity ItemCost {
+	timeFrame TimeFrame required,
+    costPerTimeFrame BigDecimal required
+}
+
+entity Room {
+	name String required,
+    description String maxlength(4000)
+}
+
+entity Reservation {
+	start ZonedDateTime required,
+    end ZonedDateTime
+}
+
+entity Lending {
+	start ZonedDateTime required,
+    plannedEnd ZonedDateTime required,
+    end ZonedDateTime,
+    informedAboutEnd Boolean,
+    cost BigDecimal,
+    paid Boolean
+}
+
+relationship ManyToOne {
+	Item{owner(login) required} to User
+    Item{location(name)} to Room
+    Reservation{borrower(login) required} to User
+    Lending{borrower(login) required} to User
+    Reservation{item(name) required} to Item
+    Lending{item(name) required} to Item
+}
+
+relationship OneToMany {
+	Item{costs(timeFrame)} to ItemCost{item(name) required}
+}
+
+
+dto * with mapstruct
+paginate * with infinite-scroll
+service * with serviceImpl
